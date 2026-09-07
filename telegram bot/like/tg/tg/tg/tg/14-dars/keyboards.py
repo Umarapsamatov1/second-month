@@ -14,17 +14,3 @@ def buttons_category():
         one_time_keyboard=False,
     )
     return markup
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,7 +6,7 @@
 # from dotenv import load_dotenv
 #
 # from telegram import Update
-# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, updater
+# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 #
 # load_dotenv()
 #
@@ -31,17 +31,17 @@
 #     )
 #     os.makedirs(folder,exist_ok=True)
 #
-#
-#     options={
-#         "format":'best',
-#         "outtmpl":os.path.join(
+#     options = {
+#         "format": "best",
+#         "outtmpl": os.path.join(
 #             folder,
-#             "%(id)s.%(ext)s%"
+#             "%(id)s.%(ext)s"
 #         ),
-#         "quiet":True,
-#         "no_warnings":True,
+#         "quiet": True,
+#         "no_warnings": True,
 #
-#
+#         "socket_timeout": 60,
+#         "retries": 10,
 #     }
 #
 #     with yt_dlp.YoutubeDL(options) as ydl:
@@ -64,12 +64,12 @@
 #             "video yuklanmoqda"
 #         )
 #     folder = None
-#
-#
-#
-#
-#
-#
+
+
+
+
+
+
 #
 #
 #     try:
@@ -129,9 +129,9 @@
 # yosh=int(input("enter your yosh"))
 # info=[ism,familiyasi,yosh]
 # print(info)
-
-
-
+#
+#
+#
 
 
 

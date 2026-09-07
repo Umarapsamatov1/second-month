@@ -35,23 +35,3 @@ def pars_texno(category):
         })
     return texno_data
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -71,3 +71,33 @@
 # if __name__ == '__main__':
 #     asyncio.run(main())
 #
+
+
+# import asyncio
+# import time
+# from aiogram.client.default import DefaultBotProperties
+# from aiogram import Bot, Dispatcher
+# from aiogram.types import Message
+# from dotenv import load_dotenv
+# import os
+# from aiogram.filters import Command
+#
+# from config import get_values
+# from keyboards import buttons_category
+# from texno import pars_texno
+#
+# load_dotenv()
+# TOKEN=os.getenv('TOKEN')
+# bot=Bot(
+#     TOKEN,
+#     default=DefaultBotProperties(parse_mode='HTML'),
+#
+# )
+# dp=Dispatcher()
+# @dp.message(Command('start'))
+# async def start(message: Message):
+#     full_name = message.from_user.full_name
+#     await message.answer(f"salom  {full_name} texnomart dokoniga xush kelibsiz ")
+#     await show_category_menu(messsage:message)
+
+

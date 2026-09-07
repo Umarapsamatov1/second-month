@@ -61,3 +61,32 @@
 #
 #
 # pars_texno('katalog/smartfony-apple/')
+
+# while True:
+#  yoz=input("yoz")
+#  word=yoz.split()
+#  if "python" in word:
+#      word=[wor for wor in word if wor != "python"]
+#  else:
+#      word.insert(0,"python")
+#
+#  print(word)
+
+# for i in range(1,100):
+#  if i%3==0:
+#         print(i)
+# r=[]
+# for k in range(1,50):
+#     r.append(k**2)
+# # print(r)
+# balans=50000
+# while True:
+#     raqam=input()
+#     if raqam=="1":
+#         i=int(input("qancha qoshasan"))
+#         balans=balans+i
+#         print(balans)
+#     if raqam=="2":
+#         l=int(input("qancha yechasan"))
+#         balans=balans-l
+#     print(balans)
